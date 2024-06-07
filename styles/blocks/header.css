@@ -1,0 +1,72 @@
+header {
+    background-image: url(../../src/images/header.png);
+    background-position: 40% 40%;
+    padding: 30px 0;
+    box-shadow: 0 0 30px 10px black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu a {
+    display: flex;
+    font-family: jaro, rubik, arial, sans-serif;
+    text-decoration: none;
+    color: #888888;
+    padding: 20px 30px;
+    background-color: rgb(32, 32, 32);
+    transition: 300ms;
+}
+
+.header-menu a:hover {
+    color: white;
+    background-color: #555555;
+}
+
+.menu-selected a {
+    color: white;
+    background-color: #303030;
+}
+
+.header-sign {
+    display: flex;
+    column-gap: 10px;
+}
+
+.header-sign a {
+    display: flex;
+    text-decoration: none;
+    font-family: csfont, jaro, rubik, arial, sans-serif;
+    font-size: 1.3rem;
+    transition: 300ms;
+}
+
+.header-sign a:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: black;
+}
+
+.header-login a {
+    padding: 8px 18px;
+    border-radius: 32px;
+    border: solid 2px white;
+    color: white;
+}
+
+.header-register a {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    color: black;
+}
+

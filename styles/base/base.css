@@ -1,0 +1,27 @@
+@font-face {
+    font-family: rubik;
+    src: url(../../src/fonts/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jaro;
+    src: url(../../src/fonts/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+@font-face {
+    font-family: csfont;
+    src: url(../../src/fonts/cs_regular.ttf);
+}
+
+body {
+    background-image: url(../../src/images/background-agents.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: rubik, arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    padding: 0 100px;
+}
+
