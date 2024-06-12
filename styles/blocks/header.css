@@ -91,11 +91,17 @@ header {
 @media (max-width: 850px) {
     .header-content {
         flex-direction: column-reverse;
-        align-items: end;
+        align-items: start;
+        row-gap: 30px;
+    }
+
+    .header-menu ul {
+        flex-direction: column;
+        position: absolute;
     }
 
     .header-menu a {
-        padding: 10px 5px;
+        padding: 10px 0;
         font-size: 0.8rem;
     }
 }
