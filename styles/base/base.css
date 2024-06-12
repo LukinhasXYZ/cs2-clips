@@ -41,7 +41,7 @@ body {
 
 @media (max-width: 700px) {
     body {
-        background-size: 150%;
-        background-position-x: 50%;
+        background-image: linear-gradient(to right, rgba(255, 123, 0, 0.205), rgba(0, 81, 255, 0.253));
+        background-repeat: repeat;
     }
 }
