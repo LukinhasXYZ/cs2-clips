@@ -70,3 +70,32 @@ header {
     color: black;
 }
 
+
+
+
+/* media */
+
+@media (max-width: 1330px) {
+    .header-menu a {
+        padding: 15px 10px;
+    }
+    .header-sign a {
+        padding: 5px 10px;
+    }
+    header {
+        background-position-x: 70%;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-content {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .header-menu a {
+        padding: 10px 5px;
+        font-size: 0.8rem;
+    }
+}
