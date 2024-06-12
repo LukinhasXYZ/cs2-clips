@@ -51,20 +51,20 @@ header {
 }
 
 .header-sign a:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     color: white;
     background-color: black;
 }
 
 .header-login a {
-    padding: 8px 18px;
+    padding: 5px 28px;
     border-radius: 32px;
-    border: solid 2px white;
+    border: solid 3px white;
     color: white;
 }
 
 .header-register a {
-    padding: 10px 20px;
+    padding: 8px 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 32px;
     color: black;
@@ -79,8 +79,12 @@ header {
     .header-menu a {
         padding: 15px 10px;
     }
-    .header-sign a {
-        padding: 5px 10px;
+    .header-register a {
+        padding: 8px 15px;
+    }
+
+    .header-login a {
+        padding: 5px 13px ;
     }
     header {
         background-position-x: 70%;
