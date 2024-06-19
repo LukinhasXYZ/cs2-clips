@@ -99,13 +99,20 @@ header {
         row-gap: 30px;
     }
 
+    .header-menu {
+        display: flex;
+        margin: auto;
+    }
+
     .header-menu ul {
-        flex-direction: column;
-        position: absolute;
+        display: block;
+        columns: 3;
+        gap: 0;
     }
 
     .header-menu a {
-        padding: 10px 0;
-        font-size: 0.8rem;
+        padding: 10px 5px;
+        font-size: 0.9rem;
+        border: solid 1px rgb(92, 92, 92);
     }
 }
