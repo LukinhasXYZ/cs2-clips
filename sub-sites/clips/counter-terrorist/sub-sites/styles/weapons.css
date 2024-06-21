@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.main-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-weapon {
+    color: white;
+    font-family: csfont, jaro, rubik, sans-serif;
+}
+
+.video-weapon {
+    display: flex;
+    justify-content: center;
+}
+
+.video-weapon video {
+    width: 100%;
+}
+
+.nav-weapons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-weapons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 32px;
+    color: white;
+    font-family: jaro, rubik, Arial, Helvetica, sans-serif;
+}
+
+.nav-weapons-btn a {
+    background-color: transparent;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+@media (max-width: 700px) {
+    .nav-weapons a {
+        padding: 10px 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 510px) {
+    .nav-weapons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
