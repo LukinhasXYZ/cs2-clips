@@ -28,6 +28,10 @@ body {
     background-repeat: no-repeat;
 }
 
+p {
+    text-indent: 20px;
+}
+
 
 /* media */
 
